@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+	h1 CPU usage
+	br
+
+	button#refresh Refresh
+
+	table
+		tr
+			th Model
+			th Speed
+		tbody#cpus
